@@ -1,0 +1,28 @@
+    if game.PlaceId == 621129760 then
+        game.StarterGui:SetCore("SendNotification",  {
+ Title = "FinobeHub.Xyz";
+ Text = "KAT Detected. Thanks for using my hub! :)";
+ Icon = "";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexTheScriptKiddie/finobehub.xyz/main/kat"))()
+elseif game.PlaceId == 4588604953 then
+            game.StarterGui:SetCore("SendNotification",  {
+ Title = "FinobeHub.Xyz";
+ Text = "Criminality Detected!. Thanks for using my hub! :)";
+ Icon = "";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexTheScriptKiddie/crimskidv3/main/finobeisveryhotandcute"))()
+elseif game.PlaceId == 4939953142 then
+            game.StarterGui:SetCore("SendNotification",  {
+ Title = "FinobeHub.Xyz";
+ Text = "Remorseless Detected. Thanks for using my hub! :)";
+ Icon = "";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexTheScriptKiddie/remorseless/main/gui"))()
+end
